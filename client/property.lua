@@ -3,8 +3,8 @@ AddEventHandler(
     "esx_inventoryhud:openPropertyInventory",
     function(data)
         setPropertyInventoryData(data)
-        openPropertyInventory()
         refreshPropertyInventory()
+        openPropertyInventory()
     end
 )
 
